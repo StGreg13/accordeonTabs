@@ -3,7 +3,7 @@
 	padding: 0;
 }
 
-/* .tab {
+.tab {
 	display: inline-block;
 	width: 200px;
 	text-align: center;
@@ -26,9 +26,9 @@
 }
 .tab-content-1 {
 	display: block;
-} */
+}
 
-.tab {
+/* .tab {
 	display: block;
 	width: 200px;
 	text-align: center;
@@ -49,4 +49,33 @@
 }
 .content-1 {
 	display: block;
+} */
+
+/* HOME WORK TABS */
+p {
+	font-family: Arial, Helvetica, sans-serif;
+}
+.tab-content-1 {
+	display: flex;
+}
+.question-content {
+	width: 50%;
+	padding: 29px 10px;
+}
+.question-inputs {
+	margin-bottom: 22px;
+}
+.question-input {
+	padding: 5px;
+}
+.question-title, .message-input {
+	font-size: 13px;
+	font-weight: 600;
+	color: #425666;
+	margin-bottom: 13px;
+	text-transform: uppercase;
+}
+.question-message {
+	padding-top: 20px;
+	padding-right: 20px;
 }
