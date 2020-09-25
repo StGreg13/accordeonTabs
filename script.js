@@ -1,10 +1,10 @@
 $(document).ready(function(){
-    var tab = $('.tab');
-    tab.click(function(){
-        var target = $(this).attr('data-target');
-        $('.tab-content').hide();
-        $('.'+target).show();
-    });
+    // var tab = $('.tab');
+    // tab.click(function(){
+    //     var target = $(this).attr('data-target');
+    //     $('.tab-content').hide();
+    //     $('.'+target).show();
+    // });
 
     // var tab = $('.tab');
     // tab.click(function(){
@@ -13,4 +13,15 @@ $(document).ready(function(){
     //     $('.content').hide();
     //     $(target).show();
     // });
+
+    // homework
+
+    var tab = $('.tab');
+    tab.click(function(){
+        var target = $(this).attr('data-target');
+        $(".tab").removeClass('tab-active');
+        $(this).addClass('tab-active');
+        $('.tab-content').hide();
+        $('.'+target).show();
+    });
 });
